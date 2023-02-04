@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-family: 'K2D';
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.container {
+    width: 600px;
+    height: 700px;
+    background-color: #222222;
+    border: 10px solid #828282;
+    border-radius: 50px;
+    margin: auto;
+}
+
+#time {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    margin-left: 440px;
+    color: #FFFFFF;
+    font: 400 30px 'K2D';
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    background-image: url(./img/Mask\ group.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 450px;
+    height: 450px;
+    padding-bottom: 60px;
+}
+
+p {
+    text-align: center;   
+    color: #FFFFFF;
+    font: 400 20px 'K2D';
+}
+
+.line {
+    width: 230px;
+    height: 10px;
+    margin-top: 12px;
+    margin-bottom: 40px;      
+    background: #FFFFFF;
+    border-radius: 1px;
+}
