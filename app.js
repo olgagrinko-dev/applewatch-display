@@ -6,7 +6,7 @@
 
 const time = document.getElementById(`time`);
 
-function doClock(time_) {
+function doClock() {
     let date = new Date();
     let hours = date.getHours().toString();
     let minutes = date.getMinutes().toString();
@@ -25,5 +25,5 @@ function doClock(time_) {
     let clockString = hours + `:` + minutes + `:` + seconds;
     time.textContent = clockString;
 }
-doClock(time)
+
 setInterval(doClock, 1000)
